@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>India</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alabama Football</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+  <div class="container">
+    <h1 class="mt-5 mb-4">Alabama Football Recruting Page</h1>
+    <form id="signupForm">
+      <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+      </div>
+      <div class="mb-3">
+        <label for="phoneNumber" class="form-label">High School</label>
+        <input type="tel" class="form-control" id="highSchool" placeholder="Enter your High School">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Position</label>
+        <input type="email" class="form-control" id="pos" aria-describedby="posHelp" placeholder="Enter the position you play" required>
+      </div>
+      <div class="mb-3">
+        <label for="birthdate" class="form-label">Graduation Class</label>
+        <input type="date" class="form-control" id="gradClass" required>
+        <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="button" class="btn btn-secondary" id="clearForm">Clear</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap 5 JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="scripts/script.js"></script>
 </body>
 </html>
