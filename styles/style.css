@@ -1,0 +1,18 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/6e/3c/55/6e3c55df594f596f35d781c10b048030.jpg');
+    background-size: cover;
+  }
+
+.mb-3 {
+    color: white;
+}
+
+.mt-5{
+    color: white;
+}
+
+#recuitForm {
+    max-width: 400px;
+    padding: 20px;
+    font-size: 14px;
+}
